@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isSmtMainReports": {
+      "type": "identifier",
+      "selector": ".main_menu_header",
+      "control": "exists",
+      "selectContains": "smt main reports"
+    }
+  },
+  "connect": []
+}
