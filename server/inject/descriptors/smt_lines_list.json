@@ -84,7 +84,10 @@
           }
         }
       },
-      "selectorAll": "tr"
+      "selectorAll": {
+        "fn": "style=",
+        "selectorAll": "tr"
+      }
     }
   },
   "connect": []
