@@ -85,7 +85,10 @@
           "color": {
             "type": "string",
             "control": "exists",
-            "selector": "td.red"
+            "selector": {
+              "fn": ".red",
+              "selector": "tr"
+            }
           }
         }
       },
