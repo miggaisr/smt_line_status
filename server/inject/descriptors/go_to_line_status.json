@@ -6,6 +6,12 @@
       "selector": ".main_menu_header",
       "control": "exists",
       "selectContains": "smt main reports"
+    },
+    "GoToLineStatus": {
+      "type": "action",
+      "selector": ".menu_buttons",
+      "control": "action.link",
+      "selectContains": "SMT lines status"
     }
   },
   "connect": []
