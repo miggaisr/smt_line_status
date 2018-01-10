@@ -84,7 +84,7 @@
           },
           "color": {
             "type": "string",
-            "control": "exists",
+            "control": "property.innerHTML",
             "selector": {
               "fn": "td",
               "selector": "tr"
