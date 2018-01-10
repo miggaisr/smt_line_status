@@ -15,8 +15,7 @@
           "line": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText",
-            "selectIndex": 1
+            "control": "property.innerText"
           },
           "paka": {
             "type": "string",
