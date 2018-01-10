@@ -11,7 +11,48 @@
       "selectorAll": "td",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "line": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "paka": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "pn": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "description": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "side": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "qty": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "qty_of_cards": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "wo_in_baan": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          }
+        }
       }
     }
   },
