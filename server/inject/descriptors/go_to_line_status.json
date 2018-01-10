@@ -14,5 +14,12 @@
       "selectContains": "SMT lines"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isSmtMainReports"
+      ],
+      "action": "GoToLineStatus"
+    }
+  ]
 }
