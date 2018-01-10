@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "isMain": {
+      "type": "string",
+      "selector": "html",
+      "control": "url.main"
+    }
+  },
+  "connect": []
+}
