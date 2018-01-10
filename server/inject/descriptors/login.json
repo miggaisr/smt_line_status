@@ -15,6 +15,11 @@
       "type": "string",
       "selector": "[name=\"psswd\"]",
       "control": "text"
+    },
+    "submit": {
+      "type": "action",
+      "selector": "[name=\"log_in\"]",
+      "control": "action.button"
     }
   },
   "connect": [
