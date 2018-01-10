@@ -33,8 +33,8 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "[name=\"flex_user_code\"]",
-      "control": "text"
+      "selector": "[name=\"log_in\"]",
+      "control": "exists"
     }
   },
   "connect": [
