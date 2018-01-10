@@ -84,10 +84,7 @@
           },
           "color": {
             "type": "string",
-            "control": {
-              "fn": ".class",
-              "control": "property.innerHTML"
-            },
+            "control": "property.innerHTML",
             "selector": "tr"
           }
         }
