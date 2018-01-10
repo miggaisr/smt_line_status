@@ -32,47 +32,56 @@
           "side": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 4
           },
           "qty": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 5
           },
           "qty_of_cards": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 6
           },
           "wo_in_baan": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 7
           },
           "pn_description": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 8
           },
           "code_description": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 9
           },
           "side_start_time": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 10
           },
           "code_duration": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 11
           },
           "last_side": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 12
           }
         }
       }
