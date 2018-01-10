@@ -54,13 +54,13 @@
           },
           "pn_description": {
             "type": "string",
-            "selector": "tr > td",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 3
           },
           "code_description": {
             "type": "string",
-            "selector": "tr > td",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 8
           },
