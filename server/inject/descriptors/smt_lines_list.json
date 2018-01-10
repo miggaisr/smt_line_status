@@ -14,7 +14,7 @@
         "properties": {
           "line": {
             "type": "string",
-            "selector": "tr",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 1
           },
