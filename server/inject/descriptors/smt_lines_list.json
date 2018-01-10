@@ -81,6 +81,11 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 11
+          },
+          "color": {
+            "type": "string",
+            "selector": ".class",
+            "control": "property.innerHTML"
           }
         }
       },
