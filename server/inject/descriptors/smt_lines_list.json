@@ -85,10 +85,7 @@
           "color": {
             "type": "string",
             "control": "exists",
-            "selector": {
-              "fn": "",
-              "selector": "tr"
-            },
+            "selector": "tr",
             "selectContains": "red"
           }
         }
