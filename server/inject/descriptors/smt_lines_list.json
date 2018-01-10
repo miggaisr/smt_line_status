@@ -8,7 +8,6 @@
     },
     "lines_list": {
       "type": "array",
-      "selectorAll": "td",
       "items": {
         "type": "object",
         "properties": {
@@ -84,7 +83,8 @@
             "selectIndex": 11
           }
         }
-      }
+      },
+      "selectorAll": "tr"
     }
   },
   "connect": []
