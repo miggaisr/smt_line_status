@@ -89,7 +89,7 @@
           }
         }
       },
-      "selectorAll": "body > div.work.frame_border > div.x > table > tbody"
+      "selectorAll": "table > tbody"
     },
     "header": {
       "type": "string",
