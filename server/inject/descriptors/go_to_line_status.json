@@ -9,7 +9,7 @@
     },
     "GoToLineStatus": {
       "type": "action",
-      "selector": ".menu_buttons",
+      "selector": "top_menu_buttons orange_button",
       "control": "action.link",
       "selectContains": "SMT lines status"
     }
