@@ -84,8 +84,8 @@
           },
           "color": {
             "type": "string",
-            "control": "exists",
-            "selector": "tr"
+            "control": "property.innerHTML",
+            "selector": ".class"
           }
         }
       },
