@@ -84,10 +84,7 @@
           },
           "color": {
             "type": "string",
-            "selector": {
-              "fn": "",
-              "selector": "td"
-            },
+            "selector": "td",
             "control": "property.innerHTML"
           }
         }
