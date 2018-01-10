@@ -94,7 +94,8 @@
     "header": {
       "type": "string",
       "selector": ".h1_m",
-      "control": "property.innerHTML"
+      "control": "property.innerHTML",
+      "selectContains": "SMT lines status"
     }
   },
   "connect": [
