@@ -13,7 +13,7 @@
         "properties": {
           "line": {
             "type": "string",
-            "selector": "td",
+            "selector": "tr > td",
             "control": "property.innerText"
           },
           "paka": {
