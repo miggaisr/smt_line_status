@@ -85,7 +85,7 @@
           "color": {
             "type": "string",
             "selector": {
-              "fn": ".color",
+              "fn": ".class",
               "selector": "td"
             },
             "control": "property.innerHTML"
