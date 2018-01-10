@@ -26,8 +26,9 @@
           },
           "pn": {
             "type": "string",
-            "selector": "td",
-            "control": "property.innerText"
+            "selector": "tr",
+            "control": "property.innerText",
+            "selectIndex": 3
           },
           "side": {
             "type": "string",
