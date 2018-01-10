@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "fd4dbc9b",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "miggaisr"
+  "creatorId": "miggaisr",
+  "id": "smt_line_status",
+  "previewImageURL": "/previews/fd4dbc9b-smt_line_status/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/miggaisr/smt_line_status",
+  "creatorName": "Gadi Israeli",
+  "sdks": []
 }

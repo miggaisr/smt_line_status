@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "smt_line_status",
-  "startScreen": "app.blank",
+  "startScreen": "app.login",
   "screens": [
     {
       "id": "blank",
