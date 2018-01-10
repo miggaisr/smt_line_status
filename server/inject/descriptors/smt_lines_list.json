@@ -89,7 +89,7 @@
           }
         }
       },
-      "selectorAll": "table > tbody"
+      "selectorAll": "table"
     },
     "header": {
       "type": "string",
