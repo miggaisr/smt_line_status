@@ -31,5 +31,12 @@
       "control": "property.innerHTML"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
 }
