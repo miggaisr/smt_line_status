@@ -85,7 +85,7 @@
           "color": {
             "type": "string",
             "control": "exists",
-            "selector": "td"
+            "selector": "tr"
           }
         }
       },
