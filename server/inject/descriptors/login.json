@@ -17,9 +17,8 @@
     },
     "flex_user_code": {
       "type": "string",
-      "selector": ".top_menu_buttons orange_button",
       "control": "text",
-      "selectContains": "SMT lines status"
+      "selector": "[name=\"flex_user_code\"]"
     },
     "psswd": {
       "type": "string",
