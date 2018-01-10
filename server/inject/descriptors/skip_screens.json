@@ -1,9 +1,9 @@
 {
   "type": "object",
   "properties": {
-    "isLogin": {
+    "isMain": {
       "type": "string",
-      "selector": "url",
+      "selector": "body",
       "control": "property.innerText"
     }
   },
