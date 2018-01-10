@@ -86,7 +86,7 @@
             "type": "string",
             "control": "property.innerHTML",
             "selector": "td",
-            "selectHidden": true
+            "selectIndex": 12
           }
         }
       },
