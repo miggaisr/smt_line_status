@@ -11,7 +11,7 @@
       "type": "action",
       "control": "attrib.onclick",
       "selector": ".top_menu_buttons orange_button",
-      "selectContains": "SMT lines"
+      "selectContains": "SMT lines status"
     }
   },
   "connect": [
