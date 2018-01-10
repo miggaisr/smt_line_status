@@ -2,37 +2,10 @@
   "type": "object",
   "properties": {
     "isLogin": {
-      "type": "identifier",
-      "selector": "[name=\"login_form\"]",
-      "control": "exists"
-    },
-    "flex_user_code": {
       "type": "string",
-      "selector": "[name=\"flex_user_code\"]",
-      "control": "text"
-    },
-    "psswd": {
-      "type": "string",
-      "selector": "[name=\"psswd\"]",
-      "control": "text"
-    },
-    "submit": {
-      "type": "action",
-      "selector": "[name=\"log_in\"]",
-      "control": "action.button"
-    },
-    "error_message": {
-      "type": "string",
-      "selector": ".error_m",
-      "control": "property.innerHTML"
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
-  "connect": [
-    {
-      "match": [],
-      "screens": [
-        "login"
-      ]
-    }
-  ]
+  "connect": []
 }
