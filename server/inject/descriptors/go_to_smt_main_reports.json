@@ -6,7 +6,7 @@
       "selector": "html",
       "control": "url.main"
     },
-    "GoToLineStatus": {
+    "GoToSmtMainReports": {
       "type": "action",
       "control": "action.link",
       "selector": ".menu_buttons",
