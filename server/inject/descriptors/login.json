@@ -1,6 +1,12 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isLogin": {
+      "type": "identifier",
+      "selector": "[name=\"login_form\"]",
+      "control": "exists"
+    }
+  },
   "connect": [
     {
       "match": [],
