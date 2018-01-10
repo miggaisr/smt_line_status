@@ -95,8 +95,7 @@
       "type": "string",
       "selector": ".h1_m",
       "control": "property.innerHTML",
-      "selectContains": "SMT lines status",
-      "selectIndex": 15
+      "selectContains": "SMT lines status"
     }
   },
   "connect": [
