@@ -30,25 +30,25 @@
           },
           "side": {
             "type": "string",
-            "selector": "tr > td",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 4
           },
           "qty": {
             "type": "string",
-            "selector": "tr > td",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 5
           },
           "qty_of_cards": {
             "type": "string",
-            "selector": "tr > td",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 6
           },
           "wo_in_baan": {
             "type": "string",
-            "selector": "tr > td",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 7
           },
