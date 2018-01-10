@@ -27,11 +27,6 @@
             "selector": "td",
             "control": "property.innerText"
           },
-          "description": {
-            "type": "string",
-            "selector": "td",
-            "control": "property.innerText"
-          },
           "side": {
             "type": "string",
             "selector": "td",
@@ -48,6 +43,31 @@
             "control": "property.innerText"
           },
           "wo_in_baan": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "pn_description": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "code_description": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "side_start_time": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "code_duration": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          },
+          "last_side": {
             "type": "string",
             "selector": "td",
             "control": "property.innerText"
