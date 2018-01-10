@@ -84,7 +84,7 @@
           },
           "color": {
             "type": "string",
-            "control": "property.className",
+            "control": "property.innerHTML",
             "selector": "td",
             "selectHidden": true
           }
