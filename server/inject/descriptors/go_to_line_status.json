@@ -2,9 +2,15 @@
   "type": "object",
   "properties": {
     "isMain": {
-      "type": "string",
+      "type": "identifier",
       "selector": "html",
       "control": "url.main"
+    },
+    "GoToLineStatus": {
+      "type": "action",
+      "control": "action.link",
+      "selector": ".menu_buttons",
+      "selectContains": "SMT main reports"
     }
   },
   "connect": []
