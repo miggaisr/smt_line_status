@@ -72,5 +72,9 @@
         "label": "ListItems"
       }
     }
+  },
+  "show_smt_lines": {
+    "type": "object",
+    "properties": {}
   }
 }

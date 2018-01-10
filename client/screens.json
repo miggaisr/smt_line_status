@@ -33,7 +33,7 @@
       "name": "smt_lines_list",
       "sourceScreenId": "app.tableview.tabledatacaptivating",
       "sourceAppId": "universaltemplates",
-      "model": "list",
+      "model": "show_smt_lines",
       "description": "SMT Line List"
     }
   ],

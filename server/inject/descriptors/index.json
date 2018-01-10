@@ -1,5 +1,6 @@
 [
   "login.json",
   "go_to_smt_main_reports.json",
-  "go_to_line_status.json"
+  "go_to_line_status.json",
+  "show_smt_lines.json"
 ]

@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "isShowSmtLines": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "url.show_smt_lines"
+    }
+  },
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "smt_lines_list"
+      ]
+    }
+  ]
+}
