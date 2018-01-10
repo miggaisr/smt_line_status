@@ -25,9 +25,9 @@
           },
           "pn": {
             "type": "string",
-            "selector": "tr",
+            "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 3
+            "selectIndex": 2
           },
           "side": {
             "type": "string",
