@@ -63,25 +63,25 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 9
+            "selectIndex": 8
           },
           "side_start_time": {
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 10
+            "selectIndex": 9
           },
           "code_duration": {
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 11
+            "selectIndex": 10
           },
           "last_side": {
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 12
+            "selectIndex": 11
           }
         }
       }
