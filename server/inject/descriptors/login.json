@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {},
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
+}
