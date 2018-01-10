@@ -1,7 +1,7 @@
 {
   "type": "object",
   "properties": {
-    "isShowSmtLines": {
+    "isSmtLinesList": {
       "type": "identifier",
       "selector": "html",
       "control": "url.show_smt_lines"
