@@ -2,13 +2,6 @@
   "type": "object",
   "comment": "Login",
   "properties": {
-    "errorMessage": {
-      "type": "string",
-      "label": "errorMessage",
-      "update": {
-        "type": "none"
-      }
-    },
     "submit": {
       "type": "action",
       "parameters": {
@@ -31,6 +24,11 @@
       "type": "string",
       "selector": "[name=\"psswd\"]",
       "control": "text"
+    },
+    "error_message": {
+      "type": "string",
+      "selector": ".error_m",
+      "control": "property.innerHTML"
     }
   },
   "connect": []
