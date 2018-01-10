@@ -5,6 +5,14 @@
       "type": "identifier",
       "selector": "html",
       "control": "url.show_smt_lines"
+    },
+    "lines_list": {
+      "type": "array",
+      "selectorAll": "td",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
