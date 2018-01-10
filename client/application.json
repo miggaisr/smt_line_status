@@ -1,0 +1,8 @@
+{
+  "name": "smt_line_status",
+  "description": "SMT Line Status",
+  "defaultLayout": "phone-portrait",
+  "previewToken": "fd4dbc9b",
+  "uiCommonVersion": "5.2.10",
+  "creatorId": "miggaisr"
+}
