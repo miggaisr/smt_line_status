@@ -42,12 +42,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.list', {
+    }).state('app.smt_lines_list', {
         views: {
             app: {
-                controller: 'app_list',
+                controller: 'app_smt_lines_list',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.list');
+                    return app.templateProvider('app.smt_lines_list');
                 }
             }
         }

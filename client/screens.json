@@ -29,11 +29,12 @@
       "model": "login"
     },
     {
-      "id": "list",
-      "name": "list",
+      "id": "smt_lines_list",
+      "name": "smt_lines_list",
       "sourceScreenId": "app.tableview.tabledatacaptivating",
       "sourceAppId": "universaltemplates",
-      "model": "list"
+      "model": "list",
+      "description": "SMT Line List"
     }
   ],
   "sourceAppId": "_blank",
