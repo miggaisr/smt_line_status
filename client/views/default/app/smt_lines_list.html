@@ -10,7 +10,8 @@
     </ion-nav-bar>
     <ion-content class=" positive-bg" data-comp-id="ionic-content.1">
         <ion-list data-comp-id="ionic-list.1">
-            <div class=" light-bg" data-comp-id="div.1" ng-repeat="item in data.lines_list"
+            <div class=" light-bg" data-comp-id="div.1" ng-if="item.line"
+                ng-repeat="item in data.lines_list"
                 style="margin: 5px 10px; border-radius: 10px;">
                 <div class="row" data-comp-id="row.1"
                     ng-click="app.action('tableview', 'data.listItems[item].action', this)"
