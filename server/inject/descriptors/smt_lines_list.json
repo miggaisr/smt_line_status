@@ -66,19 +66,19 @@
           },
           "side_start_time": {
             "type": "string",
-            "selector": "tr > td",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 9
           },
           "code_duration": {
             "type": "string",
-            "selector": "tr > td",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 10
           },
           "last_side": {
             "type": "string",
-            "selector": "tr > td",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 11
           },
