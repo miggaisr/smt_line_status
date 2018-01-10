@@ -18,7 +18,7 @@
           },
           "paka": {
             "type": "string",
-            "selector": "tr > td",
+            "selector": "td",
             "control": "property.innerText",
             "selectIndex": 1
           },
