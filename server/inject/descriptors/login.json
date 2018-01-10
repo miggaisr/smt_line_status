@@ -18,7 +18,9 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": "[name=\"log_in\"]",
+      "control": "action.button"
     },
     "flex_user_code": {
       "type": "string",
