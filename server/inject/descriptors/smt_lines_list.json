@@ -85,7 +85,7 @@
           "color": {
             "type": "string",
             "control": "property.innerHTML",
-            "selector": ".class"
+            "selector": "[class=\"--1blue\"]"
           }
         }
       },
