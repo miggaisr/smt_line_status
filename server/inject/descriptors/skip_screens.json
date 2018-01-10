@@ -3,8 +3,8 @@
   "properties": {
     "isMain": {
       "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "html",
+      "control": "url.main"
     }
   },
   "connect": []
