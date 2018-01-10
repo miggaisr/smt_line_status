@@ -85,7 +85,7 @@
           "color": {
             "type": "string",
             "selector": "td",
-            "control": "color"
+            "control": "bgcolor"
           }
         }
       },
