@@ -84,11 +84,11 @@
           },
           "color": {
             "type": "string",
-            "control": "property.innerHTML",
-            "selector": {
-              "fn": "class",
-              "selector": "tr"
-            }
+            "control": {
+              "fn": ".class",
+              "control": "property.innerHTML"
+            },
+            "selector": "tr"
           }
         }
       },
