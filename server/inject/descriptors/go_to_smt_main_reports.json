@@ -13,5 +13,12 @@
       "selectContains": "SMT main reports"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isMain"
+      ],
+      "action": "GoToSmtMainReports"
+    }
+  ]
 }
