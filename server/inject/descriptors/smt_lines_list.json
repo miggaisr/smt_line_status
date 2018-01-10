@@ -85,7 +85,7 @@
           "color": {
             "type": "string",
             "selector": "td",
-            "control": "property"
+            "control": "property.className"
           }
         }
       },
