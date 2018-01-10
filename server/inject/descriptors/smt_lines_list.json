@@ -86,7 +86,7 @@
             "type": "string",
             "control": "exists",
             "selector": {
-              "fn": ".red",
+              "fn": ".style",
               "selector": "tr"
             }
           }
