@@ -19,7 +19,7 @@
         "isMain"
       ],
       "action": "GoToSmtMainReports",
-      "model": "login"
+      "model": "go_to_smt_main_reports"
     }
   ]
 }
