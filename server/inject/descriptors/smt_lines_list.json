@@ -86,7 +86,7 @@
             "type": "string",
             "control": "property.innerHTML",
             "selector": "td",
-            "selectIndex": 12
+            "selectIndex": 1
           }
         }
       },
