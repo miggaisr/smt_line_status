@@ -84,11 +84,12 @@
           },
           "color": {
             "type": "string",
-            "control": "property.innerHTML",
+            "control": "exists",
             "selector": {
-              "fn": "td",
+              "fn": "",
               "selector": "tr"
-            }
+            },
+            "selectContains": "red"
           }
         }
       },
