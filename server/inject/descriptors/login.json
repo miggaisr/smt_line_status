@@ -20,6 +20,11 @@
       "type": "action",
       "selector": "[name=\"log_in\"]",
       "control": "action.button"
+    },
+    "error_message": {
+      "type": "string",
+      "selector": ".error_m",
+      "control": "property.innerHTML"
     }
   },
   "connect": [
