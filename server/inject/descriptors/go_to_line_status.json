@@ -22,7 +22,8 @@
       "match": [
         "isSmtMainReports"
       ],
-      "action": "GoToLineStatus"
+      "action": "GoToLineStatus",
+      "model": "go_to_smt_main_reports"
     }
   ]
 }
