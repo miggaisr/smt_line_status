@@ -96,7 +96,7 @@
       "selector": ".h1_m",
       "control": {
         "fn": "",
-        "control": "property.innerHTML"
+        "control": "exists"
       }
     }
   },
