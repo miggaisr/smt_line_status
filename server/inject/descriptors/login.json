@@ -30,6 +30,11 @@
       "type": "string",
       "selector": ".error_m",
       "control": "property.innerHTML"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": "[name=\"flex_user_code\"]",
+      "control": "text"
     }
   },
   "connect": [
