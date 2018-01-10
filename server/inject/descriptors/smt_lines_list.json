@@ -86,7 +86,7 @@
             "type": "string",
             "control": "property.innerHTML",
             "selector": {
-              "fn": ".class",
+              "fn": "class",
               "selector": "tr"
             }
           }
