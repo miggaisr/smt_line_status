@@ -18,18 +18,55 @@
                         style="padding: 10px 5px;">
                         <i class="icon ion-information-circled positive" data-comp-id="icon.1"
                             style="font-size: 24px;"></i>
+                        <div class=" energized" data-comp-id="text.11" ng-bind="item.line"
+                            style="font-size: 20px;"></div>
                     </div>
                     <div class="col" data-comp-id="column.2" style="padding: 10px;">
-                        <div class=" energized" data-comp-id="text.1" ng-bind="item.line"
-                            style="font-size: 20px; line-height: 28px;"></div>
-                        <div class=" dark" data-comp-id="text.2" ng-bind="item.paka"
-                            style="font-size: 16px; line-height: 24px;">Some text</div>
-                        <div class=" dark" data-comp-id="text.3" ng-bind="item.pn"
-                            style="font-size: 12px;">Some text</div>
-                        <div data-comp-id="text.4" ng-bind="item.pn_description"
-                            style="font-size: 12px;">Some text</div>
+                        <div class="row" data-comp-id="row.2">
+                            <div class="col" data-comp-id="column.6">
+                                <div class=" dark" data-comp-id="text.2" ng-bind="item.paka"
+                                    style="font-size: 16px; line-height: 24px;">Some text</div>
+                            </div>
+                            <div class="col" data-comp-id="column.9">
+                                <div class=" dark" data-comp-id="text.3" ng-bind="item.pn"
+                                    style="font-size: 12px;">Some text</div>
+                            </div>
+                            <div class="col" data-comp-id="column.3">
+                                <div data-comp-id="text.4" ng-bind="item.pn_description"
+                                    style="font-size: 12px;">Some text</div>
+                            </div>
+                        </div>
+                        <div class="row" data-comp-id="row.3">
+                            <div class="col" data-comp-id="column.7">
+                                <div data-comp-id="text.5" ng-bind="item.side">Some text</div>
+                            </div>
+                            <div class="col" data-comp-id="column.4">
+                                <div data-comp-id="text.6" ng-bind="item.side_start_time">Some text</div>
+                            </div>
+                            <div class="col" data-comp-id="column.5">
+                                <div data-comp-id="text.7" ng-bind="item.last_side"></div>
+                            </div>
+                        </div>
+                        <div class="row" data-comp-id="row.4">
+                            <div class="col" data-comp-id="column.8">
+                                <div data-comp-id="text.8" ng-bind="item.qty_of_cards"></div>
+                            </div>
+                            <div class="col" data-comp-id="column.10">
+                                <div data-comp-id="text.9" ng-bind="item.qty">Some text</div>
+                            </div>
+                            <div class="col" data-comp-id="column.11">
+                                <div data-comp-id="text.10" ng-bind="item.wo_in_baan">Some text</div>
+                            </div>
+                        </div>
+                        <div class="row" data-comp-id="row.5">
+                            <div class="col" data-comp-id="column.12">
+                                <div data-comp-id="text.1" ng-bind="item.code_description"></div>
+                            </div>
+                            <div class="col" data-comp-id="column.13">
+                                <div data-comp-id="text.12" ng-bind="item.code_duration">Some text</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col" data-comp-id="column.3"></div>
                 </div>
             </div>
         </ion-list>
