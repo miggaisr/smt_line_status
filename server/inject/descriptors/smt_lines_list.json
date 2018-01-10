@@ -85,7 +85,7 @@
           "color": {
             "type": "string",
             "control": "property.innerHTML",
-            "selector": "td"
+            "selector": ".--1.blue"
           }
         }
       },
