@@ -85,8 +85,7 @@
           "color": {
             "type": "string",
             "control": "property.innerHTML",
-            "selector": "td",
-            "selectIndex": 1
+            "selector": "td"
           }
         }
       },
