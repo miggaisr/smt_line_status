@@ -76,5 +76,57 @@
   "show_smt_lines": {
     "type": "object",
     "properties": {}
+  },
+  "smt_lines_list": {
+    "type": "object",
+    "properties": {
+      "lines_list": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "line": {
+              "type": "string"
+            },
+            "paka": {
+              "type": "string"
+            },
+            "pn": {
+              "type": "string"
+            },
+            "side": {
+              "type": "string"
+            },
+            "qty": {
+              "type": "string"
+            },
+            "qty_of_cards": {
+              "type": "string"
+            },
+            "wo_in_baan": {
+              "type": "string"
+            },
+            "pn_description": {
+              "type": "string"
+            },
+            "code_description": {
+              "type": "string"
+            },
+            "side_start_time": {
+              "type": "string"
+            },
+            "code_duration": {
+              "type": "string"
+            },
+            "last_side": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "header": {
+        "type": "string"
+      }
+    }
   }
 }

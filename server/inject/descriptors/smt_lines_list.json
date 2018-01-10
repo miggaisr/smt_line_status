@@ -92,5 +92,14 @@
       "control": "property.innerHTML"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isSmtLinesList"
+      ],
+      "screens": [
+        "smt_lines_list"
+      ]
+    }
+  ]
 }
