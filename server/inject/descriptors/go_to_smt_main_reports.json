@@ -18,7 +18,8 @@
       "match": [
         "isMain"
       ],
-      "action": "GoToSmtMainReports"
+      "action": "GoToSmtMainReports",
+      "model": "login"
     }
   ]
 }
