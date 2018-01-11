@@ -19,9 +19,6 @@
       },
       "psswd": {
         "type": "string"
-      },
-      "error_message": {
-        "type": "string"
       }
     }
   },
