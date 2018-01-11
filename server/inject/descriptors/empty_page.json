@@ -8,10 +8,7 @@
     },
     "goToLinesList": {
       "type": "action",
-      "control": {
-        "fn": "top.main.location.href='process_engineering/lines_report.php'; ;top.jQuery('#submenu').hide()",
-        "control": "url.main"
-      },
+      "control": "url.main",
       "selector": "html"
     }
   },
