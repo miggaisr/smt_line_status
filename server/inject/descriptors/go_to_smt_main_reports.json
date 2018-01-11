@@ -4,7 +4,7 @@
     "isMain": {
       "type": "identifier",
       "control": "exists",
-      "selector": "[name='quickest_search']"
+      "selector": "[name=\"quickest_search\"]"
     },
     "GoToSmtMainReports": {
       "type": "action",
