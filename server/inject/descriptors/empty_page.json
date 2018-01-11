@@ -3,8 +3,8 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "body",
-      "control": "exists"
+      "selector": "html",
+      "control": "url.login"
     }
   },
   "connect": []
