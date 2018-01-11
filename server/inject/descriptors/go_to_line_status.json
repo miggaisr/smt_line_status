@@ -9,8 +9,8 @@
     },
     "GoToLineStatus": {
       "type": "action",
-      "control": "action.link",
-      "selector": ".menu_buttons",
+      "control": "action.onclick",
+      "selector": ".top_menu_buttons orange_button",
       "selectContains": "SMT lines status"
     }
   },
