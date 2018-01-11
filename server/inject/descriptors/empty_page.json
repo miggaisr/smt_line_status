@@ -3,8 +3,9 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "script",
-      "control": "exists"
+      "selector": "head",
+      "control": "exists",
+      "selectContains": "json_call( 'php_class=general_functions&func=login' )"
     }
   },
   "connect": []
