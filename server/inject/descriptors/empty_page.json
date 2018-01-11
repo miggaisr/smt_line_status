@@ -3,13 +3,14 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": ":not(iframe)",
       "control": "exists"
     },
     "goToMain": {
       "type": "action",
-      "selector": "html",
-      "control": "url.login"
+      "selector": {
+        "fn": "location.href='main.php';",
+        "selector": ":not(iframe)"
+      }
     }
   },
   "connect": [
