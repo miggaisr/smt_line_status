@@ -35,6 +35,12 @@
       "selector": "div.top_menu_buttons",
       "control": "action.click",
       "selectContains": "SMT lines status"
+    },
+    "reportOpen": {
+      "type": "identifier",
+      "selector": ".menu_buttons",
+      "control": "not exists",
+      "selectContains": "SMT main reports"
     }
   },
   "connect": [
