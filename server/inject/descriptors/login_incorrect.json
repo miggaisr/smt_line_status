@@ -11,6 +11,11 @@
       "type": "action",
       "selector": ".orange_button",
       "control": "action.button"
+    },
+    "error_message": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": [

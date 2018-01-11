@@ -25,11 +25,6 @@
       "selector": "[name=\"psswd\"]",
       "control": "text"
     },
-    "error_message": {
-      "type": "string",
-      "selector": ".error_m",
-      "control": "property.innerHTML"
-    },
     "isLogin": {
       "type": "identifier",
       "control": "exists",
