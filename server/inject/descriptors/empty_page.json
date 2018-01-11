@@ -3,8 +3,9 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "html",
-      "control": "url.login"
+      "selector": "head",
+      "control": "property.innerText",
+      "selectContains": "QMS3 management system"
     }
   },
   "connect": []
