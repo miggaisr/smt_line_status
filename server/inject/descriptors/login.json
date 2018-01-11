@@ -38,7 +38,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isLogin"
+      ],
       "screens": [
         "login"
       ]
