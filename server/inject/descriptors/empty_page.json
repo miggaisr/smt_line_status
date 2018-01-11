@@ -9,7 +9,7 @@
     "goToLinesList": {
       "type": "action",
       "control": {
-        "fn": "",
+        "fn": "top.main.location.href='process_engineering/lines_report.php'; ;top.jQuery('#submenu').hide()",
         "control": "url.main"
       },
       "selector": "html"
