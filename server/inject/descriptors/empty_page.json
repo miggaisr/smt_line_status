@@ -5,10 +5,9 @@
       "type": "identifier",
       "selector": {
         "fn": "head",
-        "selector": "html"
+        "selectorAll": "html"
       },
-      "control": "url.login",
-      "selectContains": "QMS3 management system"
+      "control": "url.login"
     }
   },
   "connect": []
