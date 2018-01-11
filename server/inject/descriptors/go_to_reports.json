@@ -23,6 +23,12 @@
       "selector": ".menu_buttons",
       "control": "exists",
       "selectContains": "SMT main reports"
+    },
+    "isSMTMainReports": {
+      "type": "identifier",
+      "selector": ".menu_buttons",
+      "control": "exists",
+      "selectContains": "SMT lines status"
     }
   },
   "connect": [
