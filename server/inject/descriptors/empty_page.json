@@ -5,7 +5,7 @@
       "type": "identifier",
       "selector": "body",
       "control": "exists",
-      "selectContains": "after_load_for_login()"
+      "selectContains": "after_load_for_login"
     }
   },
   "connect": [
