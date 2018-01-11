@@ -3,7 +3,7 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "head",
+      "selector": "[title=\"QMS3 management system\"]",
       "control": "exists"
     }
   },
