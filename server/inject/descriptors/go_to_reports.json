@@ -19,7 +19,7 @@
       "selectContains": "SMT main reports"
     },
     "isReports": {
-      "type": "string",
+      "type": "identifier",
       "selector": ".menu_buttons",
       "control": "exists",
       "selectContains": "SMT main reports"
