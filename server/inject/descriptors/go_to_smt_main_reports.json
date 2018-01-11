@@ -11,6 +11,12 @@
       "control": "action.link",
       "selector": ".menu_buttons",
       "selectContains": "SMT main reports"
+    },
+    "isReports": {
+      "type": "identifier",
+      "selector": ".main_menu_header",
+      "control": "exists",
+      "selectContains": "Reports"
     }
   },
   "connect": [
