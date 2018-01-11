@@ -3,7 +3,7 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": ".amlk_notification",
+      "selector": ".amlk_notification_container",
       "control": "exists"
     }
   },
