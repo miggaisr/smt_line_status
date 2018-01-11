@@ -38,7 +38,7 @@
     },
     "reportOpen": {
       "type": "identifier",
-      "selector": ".reports > table",
+      "selector": "div.reports >table",
       "control": "exists"
     }
   },
