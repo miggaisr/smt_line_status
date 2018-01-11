@@ -4,8 +4,7 @@
     "isEmptyPage": {
       "type": "identifier",
       "selector": "head",
-      "control": "exists",
-      "selectContains": "json_call( 'php_class=general_functions&func=login' )"
+      "control": "exists"
     }
   },
   "connect": []
