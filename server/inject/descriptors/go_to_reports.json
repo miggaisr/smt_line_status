@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "isMain": {
-      "type": "string",
+      "type": "identifier",
       "selector": "#main_layer",
       "control": "exists"
     },
