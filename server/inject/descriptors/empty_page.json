@@ -8,10 +8,7 @@
     },
     "goToMain": {
       "type": "action",
-      "selector": {
-        "fn": "location.href='main.php';",
-        "selector": ":not(iframe)"
-      }
+      "selector": ":not(iframe)"
     }
   },
   "connect": [
