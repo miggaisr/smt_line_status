@@ -8,7 +8,7 @@
     },
     "goToMain": {
       "type": "action",
-      "control": "location.href='main.php';"
+      "control": "exists"
     }
   },
   "connect": [

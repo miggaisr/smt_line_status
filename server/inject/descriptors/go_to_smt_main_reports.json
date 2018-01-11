@@ -3,8 +3,8 @@
   "properties": {
     "isMain": {
       "type": "identifier",
-      "selector": "html",
-      "control": "url.main"
+      "control": "exists",
+      "selector": "http://10.229.8.35/qms3/main.php"
     },
     "GoToSmtMainReports": {
       "type": "action",
