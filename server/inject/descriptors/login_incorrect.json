@@ -4,10 +4,7 @@
     "isLoginIncorrect": {
       "type": "identifier",
       "selector": ".error_m",
-      "control": {
-        "fn": "top.main.location.href='login.php';",
-        "control": "exists"
-      }
+      "control": "exists"
     }
   },
   "connect": []
