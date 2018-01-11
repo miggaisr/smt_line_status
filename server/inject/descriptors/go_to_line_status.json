@@ -3,11 +3,8 @@
   "properties": {
     "isSmtMainReports": {
       "type": "identifier",
-      "selector": ".main_menu_header",
-      "control": {
-        "fn": "top.main.location.href='process_engineering/lines_report.php'; ;top.jQuery('#submenu').hide()",
-        "control": "attrib.onclick"
-      },
+      "selector": ".menu_buttons",
+      "control": "exists",
       "selectContains": "smt main reports"
     },
     "GoToLineStatus": {
