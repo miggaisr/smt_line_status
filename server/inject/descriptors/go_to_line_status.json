@@ -6,7 +6,7 @@
       "selector": ".main_menu_header",
       "control": {
         "fn": "top.main.location.href='process_engineering/lines_report.php'; ;top.jQuery('#submenu').hide()",
-        "control": "exists"
+        "control": "attrib.onclick"
       },
       "selectContains": "smt main reports"
     },
