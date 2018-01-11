@@ -4,7 +4,7 @@
     "isEmptyPage": {
       "type": "identifier",
       "selector": "iframe",
-      "control": "not exists"
+      "control": "!exists"
     }
   },
   "connect": [
