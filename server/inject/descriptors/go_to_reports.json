@@ -49,6 +49,12 @@
         "isReports"
       ],
       "action": "go_to_smt_main_reports"
+    },
+    {
+      "match": [
+        "isSMTMainReports"
+      ],
+      "action": "goToLinesReport"
     }
   ]
 }
