@@ -40,9 +40,9 @@
   "connect": [
     {
       "match": [
-        "isMain"
+        "isSMTMainReports"
       ],
-      "action": "goToReports"
+      "action": "goToLinesReport"
     },
     {
       "match": [
@@ -52,9 +52,9 @@
     },
     {
       "match": [
-        "isSMTMainReports"
+        "isMain"
       ],
-      "action": "goToLinesReport"
+      "action": "goToReports"
     }
   ]
 }
