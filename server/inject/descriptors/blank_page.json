@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "isBlankPage": {
+      "type": "identifier",
+      "selector": ":not(iframe)",
+      "control": "exists"
+    }
+  },
+  "connect": []
+}
