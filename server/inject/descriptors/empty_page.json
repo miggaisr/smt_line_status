@@ -7,12 +7,5 @@
       "control": "exists"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isEmptyPage"
-      ],
-      "action": "goToLinesList"
-    }
-  ]
+  "connect": []
 }
