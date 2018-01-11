@@ -5,6 +5,11 @@
       "type": "identifier",
       "selector": ".error_m",
       "control": "exists"
+    },
+    "LogInAgain": {
+      "type": "action",
+      "selector": ".orange_button",
+      "control": "exists"
     }
   },
   "connect": []
