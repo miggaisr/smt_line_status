@@ -5,7 +5,7 @@
       "type": "identifier",
       "control": "url.login",
       "selector": "html",
-      "selectContains": "wait"
+      "selectContains": "QMS3"
     }
   },
   "connect": [
