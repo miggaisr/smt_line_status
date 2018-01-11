@@ -18,8 +18,7 @@
       "match": [
         "isMain"
       ],
-      "action": "GoToSmtMainReports",
-      "model": "go_to_smt_main_reports"
+      "action": "GoToSmtMainReports"
     }
   ]
 }
