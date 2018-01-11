@@ -39,7 +39,8 @@
     "reportclicked": {
       "type": "identifier",
       "selector": ".main_menu_header",
-      "control": "action.click"
+      "control": "action.click",
+      "selectContains": "Reports"
     }
   },
   "connect": [
