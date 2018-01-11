@@ -9,7 +9,7 @@
     "goToMain": {
       "type": "action",
       "control": "location.href='main.php';",
-      "selector": "html"
+      "selector": ":not(iframe)"
     }
   },
   "connect": [
