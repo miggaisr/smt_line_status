@@ -6,14 +6,6 @@
       "selector": ".menu_buttons",
       "control": "exists",
       "selectContains": "SMT lines status"
-    },
-    "GoToLineStatus": {
-      "type": "action",
-      "control": {
-        "fn": "top.main.location.href='process_engineering/lines_report.php'; ;top.jQuery('#submenu').hide()",
-        "control": "exists"
-      },
-      "selector": ".menu_buttons"
     }
   },
   "connect": [
@@ -21,7 +13,7 @@
       "match": [
         "isSmtMainReports"
       ],
-      "action": "GoToLineStatus"
+      "event": "goToLinesReport"
     }
   ]
 }
