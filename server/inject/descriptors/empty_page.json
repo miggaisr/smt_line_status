@@ -4,8 +4,7 @@
     "isEmptyPage": {
       "type": "identifier",
       "selector": "script",
-      "control": "exists",
-      "selectContains": "json_call"
+      "control": "exists"
     }
   },
   "connect": []
