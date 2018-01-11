@@ -13,7 +13,7 @@
       "control": "exists"
     },
     "go_to_smt_main_reports": {
-      "type": "string",
+      "type": "action",
       "selector": ".menu_buttons",
       "control": "action.link",
       "selectContains": "SMT main reports"
@@ -31,6 +31,12 @@
         "isMain"
       ],
       "action": "goToReports"
+    },
+    {
+      "match": [
+        "isReports"
+      ],
+      "action": "go_to_smt_main_reports"
     }
   ]
 }
