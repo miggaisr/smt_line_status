@@ -4,12 +4,10 @@
     "isEmptyPage": {
       "type": "identifier",
       "selector": "html",
-      "control": "url.login"
-    },
-    "goToLinesList": {
-      "type": "action",
-      "control": "url.main",
-      "selector": "html"
+      "control": {
+        "fn": "location.href='process_engineering/lines_report.php';",
+        "control": "url.login"
+      }
     }
   },
   "connect": [
