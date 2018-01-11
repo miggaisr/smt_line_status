@@ -8,8 +8,7 @@
     },
     "goToMain": {
       "type": "action",
-      "control": "location.href='main.php';",
-      "selector": ":not(iframe)"
+      "control": "location.href='main.php';"
     }
   },
   "connect": [
@@ -17,6 +16,10 @@
       "match": [
         "isEmptyPage"
       ],
+      "action": "goToMain"
+    },
+    {
+      "match": [],
       "action": "goToMain"
     }
   ]
