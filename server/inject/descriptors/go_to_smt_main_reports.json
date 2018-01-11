@@ -1,14 +1,15 @@
 {
   "type": "object",
   "properties": {
-    "isMain": {
-      "type": "identifier",
-      "control": "exists",
-      "selector": "#main_layer"
-    },
     "GoToSmtMainReports": {
       "type": "action",
       "control": "action.link",
+      "selector": ".menu_buttons",
+      "selectContains": "SMT main reports"
+    },
+    "isReports": {
+      "type": "identifier",
+      "control": "exists",
       "selector": ".menu_buttons",
       "selectContains": "SMT main reports"
     }
