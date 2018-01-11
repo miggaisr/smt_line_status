@@ -5,7 +5,7 @@
       "type": "identifier",
       "selector": ".menu_buttons",
       "control": "exists",
-      "selectContains": "smt main reports"
+      "selectContains": "SMT lines status"
     },
     "GoToLineStatus": {
       "type": "action",
