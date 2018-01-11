@@ -36,10 +36,10 @@
       "control": "action.click",
       "selectContains": "SMT lines status"
     },
-    "reportOpen": {
+    "reportclicked": {
       "type": "identifier",
-      "selector": "div.reports > table",
-      "control": "exists"
+      "selector": ".main_menu_header",
+      "control": "action.click"
     }
   },
   "connect": [
