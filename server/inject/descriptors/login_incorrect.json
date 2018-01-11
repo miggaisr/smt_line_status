@@ -12,5 +12,12 @@
       "control": "action.button"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLoginIncorrect"
+      ],
+      "action": "LogInAgain"
+    }
+  ]
 }
