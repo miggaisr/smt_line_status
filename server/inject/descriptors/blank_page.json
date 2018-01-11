@@ -3,8 +3,8 @@
   "properties": {
     "isBlankPage": {
       "type": "identifier",
-      "selector": "iframe:not(.temp)",
-      "control": "exists"
+      "selector": "html",
+      "control": "url.login"
     }
   },
   "connect": [
