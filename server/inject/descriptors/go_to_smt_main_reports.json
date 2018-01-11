@@ -3,8 +3,8 @@
   "properties": {
     "isMain": {
       "type": "identifier",
-      "control": "exists",
-      "selector": "[name=\"quickest_search\"]"
+      "control": "url.main",
+      "selector": "html"
     },
     "GoToSmtMainReports": {
       "type": "action",
