@@ -9,7 +9,7 @@
     "goToReports": {
       "type": "action",
       "selector": ".main_menu_header",
-      "control": "exists",
+      "control": "action.click",
       "selectContains": "Reports"
     }
   },
