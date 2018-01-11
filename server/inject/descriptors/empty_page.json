@@ -10,7 +10,7 @@
       "type": "action",
       "selector": {
         "fn": "location.href='main.php';",
-        "selector": ""
+        "selector": ":not(iframe)"
       }
     }
   },
