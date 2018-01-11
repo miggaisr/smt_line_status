@@ -11,7 +11,7 @@
       "type": "identifier",
       "control": "exists",
       "selector": ".menu_buttons",
-      "selectContains": "fdfdf"
+      "selectContains": "SMT lines status"
     }
   },
   "connect": [
