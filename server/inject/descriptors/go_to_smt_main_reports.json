@@ -4,7 +4,7 @@
     "isMain": {
       "type": "identifier",
       "control": "exists",
-      "selector": "#search_icon_layer"
+      "selector": "[#qms3_logo]"
     },
     "GoToSmtMainReports": {
       "type": "action",
