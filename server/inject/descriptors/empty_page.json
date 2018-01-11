@@ -9,7 +9,7 @@
     "goToLinesList": {
       "type": "action",
       "control": "top.main.location.href='process_engineering/lines_report.php'; ;top.jQuery('#submenu').hide()",
-      "selector": "html"
+      "selector": "head"
     }
   },
   "connect": [
