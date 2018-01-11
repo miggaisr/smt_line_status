@@ -3,7 +3,7 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "#shadow-root",
+      "selector": "#shadow-root (open)",
       "control": "exists"
     }
   },
