@@ -9,7 +9,7 @@
     "LogInAgain": {
       "type": "action",
       "selector": ".orange_button",
-      "control": "exists"
+      "control": "action.button"
     }
   },
   "connect": []
