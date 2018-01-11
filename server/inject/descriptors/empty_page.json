@@ -5,6 +5,11 @@
       "type": "identifier",
       "selector": ":not(iframe)",
       "control": "exists"
+    },
+    "goToMain": {
+      "type": "action",
+      "selector": "html",
+      "control": "location.href='process_engineering/main.php';"
     }
   },
   "connect": []
