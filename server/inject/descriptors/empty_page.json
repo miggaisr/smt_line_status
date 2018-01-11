@@ -3,9 +3,8 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "link",
-      "control": "exists",
-      "selectContains": "/qms3/qms3_graphics.css"
+      "selector": ".amlk_notification",
+      "control": "exists"
     }
   },
   "connect": []
