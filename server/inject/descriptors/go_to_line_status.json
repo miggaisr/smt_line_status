@@ -10,8 +10,7 @@
     "GoToLineStatus": {
       "type": "identifier",
       "control": "exists",
-      "selector": ".top_menu_buttons orange_button",
-      "selectContains": "SMT lines status"
+      "selector": ".top_menu_buttons orange_button"
     }
   },
   "connect": [
