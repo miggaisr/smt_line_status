@@ -32,8 +32,8 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "html",
-      "control": "url.login"
+      "control": "exists",
+      "selector": "[name=\"login_form\"]"
     }
   },
   "connect": [
