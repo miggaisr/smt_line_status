@@ -8,7 +8,11 @@
     },
     "goToMain": {
       "type": "action",
-      "selector": ":not(iframe)"
+      "selector": ":not(iframe)",
+      "control": {
+        "fn": "location.href='main.php';",
+        "control": "exists"
+      }
     }
   },
   "connect": [
