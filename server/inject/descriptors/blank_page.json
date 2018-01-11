@@ -4,7 +4,7 @@
     "isBlankPage": {
       "type": "identifier",
       "control": "exists",
-      "selector": "script"
+      "selector": "body:not(iframe)"
     }
   },
   "connect": [
