@@ -4,7 +4,7 @@
     "isEmptyPage": {
       "type": "identifier",
       "selector": {
-        "fn": "<head></head>",
+        "fn": "",
         "selector": "html"
       },
       "control": "url.login"
