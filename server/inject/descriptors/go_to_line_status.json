@@ -10,7 +10,7 @@
     "GoToLineStatus": {
       "type": "action",
       "control": {
-        "fn": "top.main.location.href='process_engineering/lines_report.php'; ;top.jQuery('#submenu').hide()",
+        "fn": "location.href='process_engineering/lines_report.php';",
         "control": "exists"
       },
       "selector": ".menu_buttons",

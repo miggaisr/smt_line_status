@@ -8,8 +8,11 @@
     },
     "goToLinesList": {
       "type": "action",
-      "control": "href='process_engineering/lines_report.php'",
-      "selector": "page"
+      "control": {
+        "fn": "",
+        "control": "url.main"
+      },
+      "selector": "html"
     }
   },
   "connect": [
