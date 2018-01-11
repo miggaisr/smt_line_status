@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "isLoginIncorrect": {
+      "type": "identifier",
+      "selector": ".error_m",
+      "control": "exists"
+    }
+  },
+  "connect": []
+}
