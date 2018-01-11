@@ -2,7 +2,7 @@
   "go_to_smt_main_reports.json",
   "go_to_line_status.json",
   "login.json",
-  "blank_page.json",
   "smt_lines_list.json",
-  "login_incorrect.json"
+  "login_incorrect.json",
+  "blank_page.json"
 ]
