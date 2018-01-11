@@ -17,10 +17,6 @@
         "isEmptyPage"
       ],
       "action": "goToMain"
-    },
-    {
-      "match": [],
-      "action": "goToMain"
     }
   ]
 }
