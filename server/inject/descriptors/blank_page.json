@@ -4,8 +4,10 @@
     "isBlankPage": {
       "type": "identifier",
       "control": "url.login",
-      "selector": "html",
-      "selectContains": "QMS3"
+      "selector": {
+        "fn": ":not(iframe)",
+        "selector": "html"
+      }
     }
   },
   "connect": [
