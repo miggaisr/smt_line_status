@@ -11,6 +11,17 @@
       "type": "identifier",
       "selector": "#main_layer",
       "control": "exists"
+    },
+    "go_to_smt_main_reports": {
+      "type": "string",
+      "selector": "div",
+      "control": "property.innerHTML"
+    },
+    "isReports": {
+      "type": "string",
+      "selector": ".menu_buttons",
+      "control": "exists",
+      "selectContains": "SMT main reports"
     }
   },
   "connect": [
