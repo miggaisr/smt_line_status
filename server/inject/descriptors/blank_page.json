@@ -3,7 +3,7 @@
   "properties": {
     "isBlankPage": {
       "type": "identifier",
-      "selector": "no_border",
+      "selector": ".no_border",
       "control": "exists"
     }
   },
