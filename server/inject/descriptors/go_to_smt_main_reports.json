@@ -22,7 +22,8 @@
   "connect": [
     {
       "match": [
-        "isMain"
+        "isMain",
+        "isReports"
       ],
       "action": "GoToSmtMainReports"
     }
