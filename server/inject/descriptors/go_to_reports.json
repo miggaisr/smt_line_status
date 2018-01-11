@@ -13,5 +13,10 @@
       "selectContains": "Reports"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "action": "goToReports"
+    }
+  ]
 }
