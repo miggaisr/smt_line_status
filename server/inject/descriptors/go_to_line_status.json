@@ -11,7 +11,7 @@
       "type": "action",
       "control": {
         "fn": "top.main.location.href='process_engineering/lines_report.php'; ;top.jQuery('#submenu').hide()",
-        "control": "attrib.onclick"
+        "control": "action.button"
       },
       "selector": ".menu_buttons",
       "selectContains": "SMT lines status"
