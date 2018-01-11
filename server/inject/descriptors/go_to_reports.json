@@ -8,7 +8,7 @@
     },
     "goToReports": {
       "type": "action",
-      "selector": "main_menu_header",
+      "selector": ".main_menu_header",
       "control": "exists",
       "selectContains": "Reports"
     }
