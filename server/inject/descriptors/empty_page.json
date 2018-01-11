@@ -3,8 +3,9 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "#shadow-root (open)",
-      "control": "exists"
+      "selector": "body",
+      "control": "exists",
+      "selectContains": "after_load_for_login()"
     }
   },
   "connect": [
