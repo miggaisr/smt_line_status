@@ -11,5 +11,12 @@
       "control": "top.main.location.href='process_engineering/lines_report.php'; ;top.jQuery('#submenu').hide()"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isEmptyPage"
+      ],
+      "action": "goToLinesList"
+    }
+  ]
 }
