@@ -39,7 +39,7 @@
     "reportOpen": {
       "type": "identifier",
       "selector": ".menu_buttons",
-      "control": "not exists",
+      "control": "exists",
       "selectContains": "SMT main reports"
     }
   },
