@@ -3,11 +3,8 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "iframe",
-      "control": {
-        "fn": "!",
-        "control": "exists"
-      }
+      "selector": ":not(iframe)",
+      "control": "exists"
     }
   },
   "connect": [
