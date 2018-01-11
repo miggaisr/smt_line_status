@@ -4,7 +4,7 @@
     "isMain": {
       "type": "identifier",
       "control": "exists",
-      "selector": "http://10.229.8.35/qms3/main.php"
+      "selector": "href='main.php'"
     },
     "GoToSmtMainReports": {
       "type": "action",
