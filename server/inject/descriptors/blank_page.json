@@ -3,9 +3,8 @@
   "properties": {
     "isBlankPage": {
       "type": "identifier",
-      "control": "exists",
-      "selector": "window.status",
-      "selectContains": "QMS3 management systems"
+      "control": "url.login",
+      "selector": "html"
     }
   },
   "connect": [
