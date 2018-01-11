@@ -38,9 +38,8 @@
     },
     "reportclicked": {
       "type": "identifier",
-      "selector": ".main_menu_header",
-      "control": "action.click",
-      "selectContains": "Reports"
+      "selector": ":not(.reports)",
+      "control": "exists"
     }
   },
   "connect": [
