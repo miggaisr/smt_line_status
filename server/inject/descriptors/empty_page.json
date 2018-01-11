@@ -3,9 +3,8 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "<body onload=",
-      "control": "exists",
-      "selectContains": "after_load_for_login"
+      "selector": "iframe",
+      "control": "exists"
     }
   },
   "connect": [
