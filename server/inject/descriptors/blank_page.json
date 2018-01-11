@@ -4,7 +4,8 @@
     "isBlankPage": {
       "type": "identifier",
       "control": "exists",
-      "selector": "head:not(div)"
+      "selector": ":not(div)",
+      "selectContains": "QMS3 management system"
     }
   },
   "connect": [
