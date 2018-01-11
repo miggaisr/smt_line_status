@@ -8,7 +8,6 @@
     },
     "goToMain": {
       "type": "action",
-      "selector": "location.href='main.php';",
       "control": "action.link"
     }
   },
