@@ -9,10 +9,7 @@
     "goToMain": {
       "type": "action",
       "selector": ":not(iframe)",
-      "control": {
-        "fn": "location.href='main.php';",
-        "control": "exists"
-      }
+      "control": "exists"
     }
   },
   "connect": [
