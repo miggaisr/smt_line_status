@@ -4,7 +4,7 @@
     "isMain": {
       "type": "identifier",
       "control": "exists",
-      "selector": "#main_div"
+      "selector": "[#main_div]"
     },
     "GoToSmtMainReports": {
       "type": "action",
