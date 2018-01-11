@@ -14,8 +14,9 @@
     },
     "go_to_smt_main_reports": {
       "type": "string",
-      "selector": "div",
-      "control": "property.innerHTML"
+      "selector": ".menu_buttons",
+      "control": "action.link",
+      "selectContains": "SMT main reports"
     },
     "isReports": {
       "type": "string",
