@@ -12,5 +12,12 @@
       "control": "location.href='process_engineering/main.php';"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isEmptyPage"
+      ],
+      "action": "goToMain"
+    }
+  ]
 }
