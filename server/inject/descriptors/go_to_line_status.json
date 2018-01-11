@@ -10,7 +10,8 @@
     "GoToLineStatus": {
       "type": "identifier",
       "control": "exists",
-      "selector": ".top_menu_buttons orange_button"
+      "selector": ".menu_buttons",
+      "selectContains": "fdfdf"
     }
   },
   "connect": [
