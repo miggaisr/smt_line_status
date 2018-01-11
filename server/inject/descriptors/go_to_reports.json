@@ -11,6 +11,11 @@
       "selector": ".main_menu_header",
       "control": "action.click",
       "selectContains": "Reports"
+    },
+    "isReportsopen": {
+      "type": "identifier",
+      "selector": "#main_layer",
+      "control": "property.innerHTML"
     }
   },
   "connect": [
@@ -20,5 +25,6 @@
       ],
       "action": "goToReports"
     }
-  ]
+  ],
+  "selector": ".vsdg"
 }
