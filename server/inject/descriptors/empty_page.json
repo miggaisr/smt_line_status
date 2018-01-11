@@ -9,10 +9,7 @@
     "goToMain": {
       "type": "action",
       "selector": "html",
-      "control": {
-        "fn": "location.href='main.php';",
-        "control": "url.login"
-      }
+      "control": "url.login"
     }
   },
   "connect": [
