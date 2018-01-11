@@ -3,8 +3,9 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": ".amlk_notification_container",
-      "control": "exists"
+      "selector": "html",
+      "control": "url.login",
+      "selectContains": "json_call( 'php_class=general_functions&func=login' )"
     }
   },
   "connect": []
