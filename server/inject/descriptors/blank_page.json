@@ -3,7 +3,7 @@
   "properties": {
     "isBlankPage": {
       "type": "identifier",
-      "selector": "head > script",
+      "selector": "head",
       "control": "exists",
       "selectContains": "json_call"
     }
