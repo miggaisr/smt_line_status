@@ -3,11 +3,8 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "html",
-      "control": {
-        "fn": "",
-        "control": "url.login"
-      },
+      "selector": "script",
+      "control": "exists",
       "selectContains": "json_call"
     }
   },
