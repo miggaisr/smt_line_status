@@ -4,7 +4,7 @@
     "isBlankPage": {
       "type": "identifier",
       "control": "exists",
-      "selector": ":not(div)"
+      "selector": "head:not(div)"
     }
   },
   "connect": [
