@@ -8,8 +8,8 @@
     },
     "goToMain": {
       "type": "action",
-      "selector": ":not(iframe)",
-      "control": "exists"
+      "selector": "location.href='main.php';",
+      "control": "action.link"
     }
   },
   "connect": [
