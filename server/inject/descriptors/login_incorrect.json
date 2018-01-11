@@ -3,8 +3,9 @@
   "properties": {
     "isLoginIncorrect": {
       "type": "identifier",
-      "selector": ".error_m",
-      "control": "exists"
+      "selector": ".h1_m",
+      "control": "exists",
+      "selectContains": "Please contact"
     },
     "LogInAgain": {
       "type": "action",
