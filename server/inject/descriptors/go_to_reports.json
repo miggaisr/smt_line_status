@@ -11,12 +11,6 @@
       "selector": ".main_menu_header",
       "control": "action.click",
       "selectContains": "Reports"
-    },
-    "isReportsopen": {
-      "type": "identifier",
-      "selector": ".menu_buttons",
-      "control": "exists",
-      "selectContains": "SMT main reports"
     }
   },
   "connect": [
