@@ -9,7 +9,10 @@
     },
     "GoToLineStatus": {
       "type": "action",
-      "control": "exists",
+      "control": {
+        "fn": "top.main.location.href='process_engineering/lines_report.php';top.jQuery('#submenu').hide()",
+        "control": "exists"
+      },
       "selector": ".menu_buttons",
       "selectContains": "SMT lines status"
     }
