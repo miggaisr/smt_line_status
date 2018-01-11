@@ -3,9 +3,8 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "script",
-      "control": "exists",
-      "selectContains": "json_call"
+      "selector": "#shadow-root",
+      "control": "exists"
     }
   },
   "connect": [
