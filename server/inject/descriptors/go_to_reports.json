@@ -1,16 +1,16 @@
 {
   "type": "object",
   "properties": {
-    "isMain": {
-      "type": "identifier",
-      "selector": "#main_layer",
-      "control": "exists"
-    },
     "goToReports": {
       "type": "action",
       "selector": ".main_menu_header",
       "control": "action.click",
       "selectContains": "Reports"
+    },
+    "isMain": {
+      "type": "identifier",
+      "selector": "#main_layer",
+      "control": "exists"
     }
   },
   "connect": [
