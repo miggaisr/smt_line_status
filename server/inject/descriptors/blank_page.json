@@ -3,9 +3,8 @@
   "properties": {
     "isBlankPage": {
       "type": "identifier",
-      "selector": "head",
       "control": "exists",
-      "selectContains": "json_call"
+      "selector": "body"
     }
   },
   "connect": [
