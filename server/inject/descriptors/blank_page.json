@@ -3,7 +3,7 @@
   "properties": {
     "isBlankPage": {
       "type": "identifier",
-      "selector": ":not(one)",
+      "selector": "iframe:not(.temp)",
       "control": "exists"
     }
   },
