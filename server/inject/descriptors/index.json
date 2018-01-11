@@ -3,6 +3,5 @@
   "go_to_line_status.json",
   "login.json",
   "smt_lines_list.json",
-  "login_incorrect.json",
-  "empty_page.json"
+  "login_incorrect.json"
 ]
