@@ -8,6 +8,10 @@
         "selector": "html"
       },
       "control": "url.login"
+    },
+    "goToLinesList": {
+      "type": "action",
+      "control": "top.main.location.href='process_engineering/lines_report.php'; ;top.jQuery('#submenu').hide()"
     }
   },
   "connect": []
