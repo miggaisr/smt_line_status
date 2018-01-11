@@ -3,7 +3,7 @@
   "properties": {
     "isMain": {
       "type": "identifier",
-      "selector": "#remarks",
+      "selector": "#main_layer",
       "control": "exists"
     },
     "goToReports": {
