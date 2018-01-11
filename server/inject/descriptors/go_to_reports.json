@@ -35,11 +35,6 @@
       "selector": "div.top_menu_buttons",
       "control": "action.click",
       "selectContains": "SMT lines status"
-    },
-    "reportclicked": {
-      "type": "identifier",
-      "selector": ":not(.reports)",
-      "control": "exists"
     }
   },
   "connect": [
