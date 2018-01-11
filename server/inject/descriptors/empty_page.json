@@ -3,9 +3,9 @@
   "properties": {
     "isEmptyPage": {
       "type": "identifier",
-      "selector": "head",
-      "control": "property.innerText",
-      "selectContains": "QMS3 management system"
+      "selector": "link",
+      "control": "exists",
+      "selectContains": "/qms3/qms3_graphics.css"
     }
   },
   "connect": []
