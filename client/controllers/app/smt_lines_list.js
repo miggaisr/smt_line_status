@@ -9,5 +9,4 @@ function app_smt_lines_list($scope, app) {
     $scope.lockRefresh = function () {
         $scope.sleep(1800);
     };
-    app.lockRefresh();
 }
