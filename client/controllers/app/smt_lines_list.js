@@ -7,6 +7,6 @@ function app_smt_lines_list($scope, app) {
         while(new Date().getTime() < now + sleepDuration){ /* do nothing */ } 
     };
     $scope.lockRefresh = function () {
-        $scope.sleep(180);
+        $scope.sleep(1800);
     };
 }
