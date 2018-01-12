@@ -26,10 +26,7 @@
       "name": "login",
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
-      "model": "login",
-      "extraViews": [
-        "phone-landscape"
-      ]
+      "model": "login"
     },
     {
       "id": "smt_lines_list",
