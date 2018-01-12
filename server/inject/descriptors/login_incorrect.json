@@ -18,12 +18,5 @@
       "control": "property.innerText"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isLoginIncorrect"
-      ],
-      "action": "LogInAgain"
-    }
-  ]
+  "connect": []
 }
