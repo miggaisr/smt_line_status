@@ -29,6 +29,11 @@
       "type": "identifier",
       "control": "exists",
       "selector": "[name=\"login_form\"]"
+    },
+    "error_message": {
+      "type": "string",
+      "selector": "html",
+      "control": "property.innerText"
     }
   },
   "connect": [
