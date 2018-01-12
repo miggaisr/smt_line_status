@@ -14,7 +14,9 @@
             <div data-comp-id="div.2" style="width: 80%; margin: 2% 10%;">
                 <!--User Input-->
                 <div class="text-center assertive" data-comp-id="text.1"
-                    ng-bind="data.error_message" ng-show="data.error_message"></div>
+                    ng-bind="data.error_message"
+                    ng-if="data.error_message == 'Password is incorrect'"
+                    ng-show="data.error_message"></div>
                 <div class="row" data-comp-id="row.2">
                     <div class="col" data-comp-id="column.2">
                         <label class="item item-input item-stacked-label positive-border"
