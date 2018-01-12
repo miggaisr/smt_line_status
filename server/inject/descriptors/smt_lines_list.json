@@ -94,6 +94,11 @@
       "type": "string",
       "selector": ".h1_m",
       "control": "property.innerText"
+    },
+    "sub_header": {
+      "type": "string",
+      "selector": ".h2_m",
+      "control": "property.innerHTML"
     }
   },
   "connect": [
