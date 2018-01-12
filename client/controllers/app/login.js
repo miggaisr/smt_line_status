@@ -3,7 +3,7 @@ function app_login($scope, app, $q) {
     'use strict';
     app.init($scope);
     if (!$scope.data) {
-        $scope.data = {};
+        $scope.data = {"username": "2604","password": "$Flex2018"};
     }
     var checkSupport = function () {
         var deferred = $q.defer();
