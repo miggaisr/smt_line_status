@@ -12,7 +12,7 @@
    "pn_description": "MICROSOFT NIC MEZZ SFG ROHS 2",
    "code_description": "End of day",
    "side_start_time": "2018-01-11 13:41:55",
-   "code_duration": "09:53:52",
+   "code_duration": "09:56:53",
    "last_side": "yes",
    "color": "--1 orange"
   },
@@ -28,7 +28,7 @@
    "pn_description": "PCBA for R&D Evaluation board",
    "code_description": "End of day",
    "side_start_time": "2018-01-08 10:03:04",
-   "code_duration": "94:29:04",
+   "code_duration": "94:32:05",
    "last_side": "yes",
    "color": "-1 orange"
   },
@@ -44,7 +44,7 @@
    "pn_description": "PCBA S1816e-SR Light (P1816-3)",
    "code_description": "Board pass",
    "side_start_time": "2018-01-11 23:39:33",
-   "code_duration": "09:57:09",
+   "code_duration": "10:00:10",
    "last_side": "yes",
    "color": "--1 green"
   },
@@ -60,7 +60,7 @@
    "pn_description": "ASSY PWA SDM3000 DC/DC PS",
    "code_description": "End of day",
    "side_start_time": "2018-01-11 23:52:10",
-   "code_duration": "10:28:52",
+   "code_duration": "10:31:53",
    "last_side": "yes",
    "color": "-1 orange"
   },
@@ -76,7 +76,7 @@
    "pn_description": "DLP Controller Card Assy",
    "code_description": "End of day",
    "side_start_time": "2018-01-11 17:09:13",
-   "code_duration": "10:15:17",
+   "code_duration": "10:18:18",
    "last_side": "yes",
    "color": "--1 orange"
   },
@@ -92,7 +92,7 @@
    "pn_description": "Finished Good SDR4 FMB Chambe",
    "code_description": "End of day",
    "side_start_time": "2018-01-11 18:38:54",
-   "code_duration": "10:12:58",
+   "code_duration": "10:15:59",
    "last_side": "no",
    "color": "-1 orange"
   },
@@ -108,7 +108,7 @@
    "pn_description": "Belkin SKVM 4-Port SC+DPP PCBA",
    "code_description": "End of day",
    "side_start_time": "2018-01-11 18:44:45",
-   "code_duration": "10:06:33",
+   "code_duration": "10:09:34",
    "last_side": "yes",
    "color": "--1 orange"
   },
@@ -124,7 +124,7 @@
    "pn_description": "SFG001996 - ECLIPSE QSFP PASSI",
    "code_description": "End of day",
    "side_start_time": "2018-01-11 20:26:39",
-   "code_duration": "10:07:45",
+   "code_duration": "10:10:46",
    "last_side": "no",
    "color": "-1 orange"
   },
@@ -140,7 +140,7 @@
    "pn_description": "AFILAB2 BOTTOM PCB ASSY",
    "code_description": "End of day",
    "side_start_time": "2018-01-11 22:42:41",
-   "code_duration": "10:04:11",
+   "code_duration": "10:07:12",
    "last_side": "no",
    "color": "--1 orange"
   },
@@ -156,7 +156,7 @@
    "pn_description": "Silkn IV Main Card",
    "code_description": "End of day",
    "side_start_time": "2018-01-10 07:47:27",
-   "code_duration": "10:02:17",
+   "code_duration": "10:05:18",
    "last_side": "yes",
    "color": "-1 orange"
   },
@@ -172,7 +172,7 @@
    "pn_description": "Belkin 12V Connector 4P Secure",
    "code_description": "End of day",
    "side_start_time": "2018-01-12 00:40:54",
-   "code_duration": "10:02:12",
+   "code_duration": "10:05:13",
    "last_side": "yes",
    "color": "--1 orange"
   },
@@ -188,7 +188,7 @@
    "pn_description": "Belkin Universal 4P SH Secure",
    "code_description": "End of day",
    "side_start_time": "2018-01-11 22:46:54",
-   "code_duration": "10:10:06",
+   "code_duration": "10:13:07",
    "last_side": "yes",
    "color": "-1 orange"
   },
@@ -204,7 +204,7 @@
    "pn_description": "AfiTagII T.assy B 80 KHz SR 86",
    "code_description": "End of day",
    "side_start_time": "2018-01-11 22:03:25",
-   "code_duration": "10:13:26",
+   "code_duration": "10:16:27",
    "last_side": "yes",
    "color": "--1 orange"
   },
@@ -220,7 +220,7 @@
    "pn_description": "ASSY PWA IRRINET_M_AC MN BOARD",
    "code_description": "End of day",
    "side_start_time": "2018-01-12 01:14:23",
-   "code_duration": "10:33:21",
+   "code_duration": "10:36:22",
    "last_side": "no",
    "color": "-1 orange"
   },
@@ -236,7 +236,7 @@
    "pn_description": "T-ATCA-510(B) Card Assembly Un",
    "code_description": "End of day",
    "side_start_time": "2018-01-11 21:24:57",
-   "code_duration": "09:52:40",
+   "code_duration": "09:55:41",
    "last_side": "no",
    "color": "--1 orange"
   },
@@ -252,12 +252,12 @@
    "pn_description": "TMCOR LCT PCBA",
    "code_description": "Line computer malfunction",
    "side_start_time": "2018-01-11 06:39:15",
-   "code_duration": "10:21:05",
+   "code_duration": "10:24:06",
    "last_side": "yes",
    "color": "-1 red"
   }
  ],
  "isSmtLinesList": true,
- "header": "SMT lines status (updated every 3 minutes) - 11:49:24 AM",
- "sub_header": "Migdal 2018-01-12 11:49:24"
+ "header": "SMT lines status (updated every 3 minutes) - 11:52:25 AM",
+ "sub_header": "Migdal 2018-01-12 11:52:25"
 }
