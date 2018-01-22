@@ -33,10 +33,7 @@
     "goToLinesReport": {
       "type": "action",
       "selector": "div.top_menu_buttons",
-      "control": {
-        "fn": "opener.top.location.href='../login.php'",
-        "control": "action.click"
-      },
+      "control": "action.click",
       "selectContains": "SMT lines status"
     }
   },

@@ -3,5 +3,6 @@ function app_smt_lines_list($scope, app,$timeout) {
     'use strict';
     app.init($scope, function(){
         //$timeout(app.call('smt_lines_list.stopRefresh'), 1000);
+        app.call('smt_lines_list.changeSource')
     });
 }
