@@ -5,7 +5,7 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     }
-    $scope.data.flex_user_code = "2604";
+    $scope.data.username = "2604";
     $scope.data.psswd = "$Flex2018";
     var checkSupport = function () {
         var deferred = $q.defer();
