@@ -99,10 +99,6 @@
       "type": "string",
       "selector": ".h2_m",
       "control": "property.innerHTML"
-    },
-    "changeSource": {
-      "type": "action",
-      "control": "opener.top.location.href='../login.php'"
     }
   },
   "connect": [
