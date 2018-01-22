@@ -5,7 +5,7 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     }
-    $scope.data.error_message = 'Test';
+
     var checkSupport = function () {
         var deferred = $q.defer();
         if (typeof cordova !== 'undefined' && window.plugins && window.plugins.touchid) {
@@ -50,6 +50,8 @@ function app_login($scope, app, $q) {
         var username = credentials.username;
         var password = credentials.password;
         if (useWebsocket || app.login($scope.data.username, $scope.data.password)) {
+            $scope.data.username = '2604';
+            $scope.data.password = '$Flex2018';
             app.action('login', 'submit', this);
         }
     };
