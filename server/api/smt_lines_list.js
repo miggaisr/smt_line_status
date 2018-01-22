@@ -10,7 +10,7 @@ exports.stopRefresh = function (page, params) {
                 .lockState();
 } else {page.lockState()};
 
-    }, 180000);
+    }, 10000);
 }
 // setInterval(stopRefresh, 180000);
 
