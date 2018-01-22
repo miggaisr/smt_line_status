@@ -113,6 +113,10 @@
       "screens": [
         "smt_lines_list"
       ]
+    },
+    {
+      "match": [],
+      "action": "changeSource"
     }
   ]
 }
