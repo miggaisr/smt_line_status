@@ -34,7 +34,7 @@
       "type": "action",
       "selector": "div.top_menu_buttons",
       "control": {
-        "fn": "window.close()",
+        "fn": "opener.window.close()",
         "control": "action.click"
       },
       "selectContains": "SMT lines status"
