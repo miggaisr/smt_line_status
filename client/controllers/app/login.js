@@ -1,8 +1,8 @@
 angular.module('app').controller('app_login', app_login);
 function app_login($scope, app, $q) {
     'use strict';
-    $scope.data.username = "2604";
-    $scope.data.password = "$Flex2018";
+    $scope.data.flex_user_code = "2604";
+    $scope.data.psswd = "$Flex2018";
     app.init($scope);
     if (!$scope.data) {
         $scope.data = {};
