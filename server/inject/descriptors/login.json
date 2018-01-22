@@ -34,11 +34,6 @@
       "type": "string",
       "selector": "html",
       "control": "property.innerText"
-    },
-    "pass": {
-      "type": "string",
-      "selector": ".positive ng-pristine ng-untouched ng-valid",
-      "control": "text"
     }
   },
   "connect": [
