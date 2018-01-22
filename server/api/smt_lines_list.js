@@ -14,7 +14,7 @@ exports.stopRefresh = function (page, params) {
 }
 
 exports.changeSource = function (page, params) {
-    opener.top.location.href='../login.php'
+    page.href='../login.php'
 }
 // setInterval(stopRefresh, 180000);
 
