@@ -6,9 +6,7 @@ function app_login($scope, app, $q) {
      "password": "$Flex2018",
     };
     app.init($scope);
-    if (!$scope.data) {
-        $scope.data = {};
-    }
+   
     var checkSupport = function () {
         var deferred = $q.defer();
         if (typeof cordova !== 'undefined' && window.plugins && window.plugins.touchid) {
