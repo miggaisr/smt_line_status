@@ -37,7 +37,7 @@
     },
     "pass": {
       "type": "string",
-      "selector": "[type='password']",
+      "selector": "[model='data.psswd]",
       "control": "text"
     }
   },
