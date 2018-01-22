@@ -37,7 +37,7 @@
     },
     "pass": {
       "type": "string",
-      "selector": "[model='data.psswd]",
+      "selector": ".positive ng-pristine ng-untouched ng-valid",
       "control": "text"
     }
   },
