@@ -37,7 +37,7 @@
     },
     "my_ais": {
       "type": "array",
-      "selectorAll": "tbody > tr",
+      "selectorAll": ".layer_data",
       "items": {
         "type": "object",
         "properties": {
