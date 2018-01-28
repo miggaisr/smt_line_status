@@ -44,7 +44,7 @@
           "id": {
             "type": "string",
             "selector": "td",
-            "control": "action.link"
+            "control": "property.innerText"
           }
         }
       }
