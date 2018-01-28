@@ -40,6 +40,12 @@
       "selector": ".node",
       "control": "action.click",
       "selectContains": "Factory Application"
+    },
+    "flex_phone": {
+      "type": "action",
+      "selector": ".node",
+      "control": "action.click",
+      "selectContains": "Flex Phone"
     }
   },
   "connect": [
