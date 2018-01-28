@@ -35,7 +35,7 @@
       "selector": "html",
       "control": "property.innerText"
     },
-    "my_ais": {
+    "all_ais": {
       "type": "array",
       "selectorAll": "tbody>tr",
       "items": {
@@ -45,6 +45,14 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText"
+          },
+          "my_last_ais": {
+            "type": "array",
+            "selectorAll": "#layer1",
+            "items": {
+              "type": "object",
+              "properties": {}
+            }
           }
         }
       }
