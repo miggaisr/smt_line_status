@@ -34,41 +34,6 @@
       "type": "string",
       "selector": "html",
       "control": "property.innerText"
-    },
-    "people_list": {
-      "type": "array",
-      "selectorAll": "table",
-      "items": {
-        "type": "object",
-        "properties": {
-          "inner_inner_list": {
-            "type": "array",
-            "selectorAll": "tr",
-            "items": {
-              "type": "object",
-              "properties": {
-                "inner_inner_inner_list": {
-                  "type": "array",
-                  "selectorAll": "td",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "inenr_inner_inner_list": {
-                        "type": "array",
-                        "selectorAll": "tr",
-                        "items": {
-                          "type": "object",
-                          "properties": {}
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "connect": [
