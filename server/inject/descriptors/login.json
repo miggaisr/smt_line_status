@@ -48,9 +48,9 @@
               "type": "object",
               "properties": {
                 "id": {
-                  "type": "action",
+                  "type": "string",
                   "selector": "td",
-                  "control": "action.link"
+                  "control": "property.innerText"
                 }
               }
             }
