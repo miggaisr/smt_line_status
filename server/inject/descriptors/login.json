@@ -49,8 +49,7 @@
               "properties": {
                 "inner_inner_list": {
                   "type": "string",
-                  "selector": "td",
-                  "control": "property.innerText"
+                  "selector": "tr"
                 }
               }
             }
