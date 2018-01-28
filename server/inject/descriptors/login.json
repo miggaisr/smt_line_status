@@ -49,7 +49,7 @@
     },
     "people_list": {
       "type": "array",
-      "selectorAll": ".xhdr",
+      "selectorAll": ".hdr",
       "items": {
         "type": "object",
         "properties": {
