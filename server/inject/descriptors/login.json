@@ -37,7 +37,7 @@
     },
     "my_ais": {
       "type": "array",
-      "selectorAll": ".layer_data",
+      "selectorAll": ".line",
       "items": {
         "type": "object",
         "properties": {
