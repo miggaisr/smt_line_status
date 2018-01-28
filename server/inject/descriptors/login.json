@@ -52,7 +52,13 @@
       "selectorAll": "tbody > tr",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "name": {
+            "type": "string",
+            "selector": "td",
+            "control": "text"
+          }
+        }
       }
     }
   },
