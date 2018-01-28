@@ -46,6 +46,14 @@
       "selector": ".node",
       "control": "action.click",
       "selectContains": "Flex Phone"
+    },
+    "people_list": {
+      "type": "array",
+      "selectorAll": "table",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": [
