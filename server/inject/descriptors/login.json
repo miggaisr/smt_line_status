@@ -37,25 +37,16 @@
     },
     "people_list": {
       "type": "array",
-      "selectorAll": "tr",
+      "selectorAll": "tr > td",
       "items": {
         "type": "object",
         "properties": {
-          "inner_list": {
+          "inner_inner_list": {
             "type": "array",
             "selectorAll": "td",
             "items": {
               "type": "object",
-              "properties": {
-                "inner_inner_list": {
-                  "type": "array",
-                  "selectorAll": "tr > td",
-                  "items": {
-                    "type": "object",
-                    "properties": {}
-                  }
-                }
-              }
+              "properties": {}
             }
           }
         }
