@@ -34,32 +34,6 @@
       "type": "string",
       "selector": "html",
       "control": "property.innerText"
-    },
-    "plus_button": {
-      "type": "action",
-      "selector": ".node",
-      "control": "action.click",
-      "selectContains": "Factory Application"
-    },
-    "flex_phone": {
-      "type": "action",
-      "selector": ".node",
-      "control": "action.click",
-      "selectContains": "Flex Phone"
-    },
-    "people_list": {
-      "type": "array",
-      "selectorAll": "[bgcolor]",
-      "items": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "selector": "td",
-            "control": "text"
-          }
-        }
-      }
     }
   },
   "connect": [
