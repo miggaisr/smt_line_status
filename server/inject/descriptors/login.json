@@ -44,8 +44,7 @@
           "id": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText",
-            "selectContains": "'\\n'"
+            "control": "property.innerText"
           }
         }
       }
