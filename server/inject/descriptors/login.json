@@ -45,6 +45,14 @@
             "type": "action",
             "selector": "td",
             "control": "property.innerText"
+          },
+          "my_tc": {
+            "type": "array",
+            "selectorAll": "td",
+            "items": {
+              "type": "object",
+              "properties": {}
+            }
           }
         }
       }
