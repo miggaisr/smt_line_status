@@ -44,8 +44,7 @@
           "id": {
             "type": "action",
             "selector": "td",
-            "control": "property.innerText",
-            "selectIndex": 3
+            "control": "property.innerText"
           }
         }
       }
