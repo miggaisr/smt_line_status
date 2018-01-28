@@ -36,7 +36,7 @@
       "control": "property.innerText"
     },
     "plus_button": {
-      "type": "identifier",
+      "type": "action",
       "selector": "#jdtreeObject1",
       "control": "attrib.src",
       "selectContains": "Factory Application"
