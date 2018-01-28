@@ -41,20 +41,6 @@
       "items": {
         "type": "object",
         "properties": {
-          "my_tc": {
-            "type": "array",
-            "selectorAll": "tr",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "string",
-                  "selector": "td",
-                  "control": "property.innerText"
-                }
-              }
-            }
-          },
           "id": {
             "type": "string",
             "selector": "td",
