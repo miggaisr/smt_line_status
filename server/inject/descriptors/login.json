@@ -52,7 +52,13 @@
                   "selectorAll": "td",
                   "items": {
                     "type": "object",
-                    "properties": {}
+                    "properties": {
+                      "inenr_inner_inner_list": {
+                        "type": "string",
+                        "selector": "td",
+                        "control": "property.innerText"
+                      }
+                    }
                   }
                 }
               }
