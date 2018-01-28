@@ -45,7 +45,7 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
-            "selectContains": "\\n"
+            "selectContains": "'\\n'"
           }
         }
       }
