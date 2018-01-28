@@ -41,14 +41,9 @@
       "items": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "action",
-            "selector": "td",
-            "control": "property.innerText"
-          },
           "my_tc": {
             "type": "array",
-            "selectorAll": "td",
+            "selectorAll": "tr",
             "items": {
               "type": "object",
               "properties": {}
