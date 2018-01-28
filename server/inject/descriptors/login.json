@@ -54,9 +54,12 @@
                     "type": "object",
                     "properties": {
                       "inenr_inner_inner_list": {
-                        "type": "string",
-                        "selector": "td",
-                        "control": "property.innerText"
+                        "type": "array",
+                        "selectorAll": "td",
+                        "items": {
+                          "type": "object",
+                          "properties": {}
+                        }
                       }
                     }
                   }
