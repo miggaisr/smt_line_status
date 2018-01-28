@@ -48,9 +48,12 @@
               "type": "object",
               "properties": {
                 "inner_inner_inner_list": {
-                  "type": "string",
-                  "selector": "tr",
-                  "control": "property.innerText"
+                  "type": "array",
+                  "selectorAll": "tr",
+                  "items": {
+                    "type": "object",
+                    "properties": {}
+                  }
                 }
               }
             }
