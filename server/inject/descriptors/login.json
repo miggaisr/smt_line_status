@@ -37,7 +37,7 @@
     },
     "people_list": {
       "type": "array",
-      "selectorAll": "[class='objbox']",
+      "selectorAll": "tr.ev_light",
       "items": {
         "type": "object",
         "properties": {}
