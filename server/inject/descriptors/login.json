@@ -37,7 +37,7 @@
     },
     "my_ais": {
       "type": "array",
-      "selectorAll": ".line",
+      "selectorAll": "table",
       "items": {
         "type": "object",
         "properties": {
