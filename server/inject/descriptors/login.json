@@ -37,7 +37,7 @@
     },
     "plus_button": {
       "type": "action",
-      "selector": "#jdtreeObject1",
+      "selector": ".node",
       "control": "action.click",
       "selectContains": "Factory Application"
     }
