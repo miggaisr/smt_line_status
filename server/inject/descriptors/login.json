@@ -55,7 +55,7 @@
                     "properties": {
                       "inenr_inner_inner_list": {
                         "type": "array",
-                        "selectorAll": "td",
+                        "selectorAll": "tr",
                         "items": {
                           "type": "object",
                           "properties": {}
