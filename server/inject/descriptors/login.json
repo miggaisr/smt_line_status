@@ -40,7 +40,14 @@
       "selectorAll": "tr",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "id": {
+            "type": "action",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 1
+          }
+        }
       }
     }
   },
