@@ -43,7 +43,7 @@
         "properties": {
           "inner_inner_list": {
             "type": "array",
-            "selectorAll": "tbody",
+            "selectorAll": ".ev_light",
             "items": {
               "type": "object",
               "properties": {}
