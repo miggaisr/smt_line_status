@@ -43,7 +43,7 @@
         "properties": {
           "inner_list": {
             "type": "array",
-            "selectorAll": "tbody > tr",
+            "selectorAll": "table",
             "items": {
               "type": "object",
               "properties": {}
