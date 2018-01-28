@@ -49,7 +49,7 @@
     },
     "people_list": {
       "type": "array",
-      "selectorAll": "[bgcolor]",
+      "selectorAll": "[bgcolor='#FFEFEF']",
       "items": {
         "type": "object",
         "properties": {
