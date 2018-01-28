@@ -37,7 +37,7 @@
     },
     "people_list": {
       "type": "array",
-      "selectorAll": "tr.ev_light",
+      "selectorAll": ".tbodyDiv",
       "items": {
         "type": "object",
         "properties": {}
