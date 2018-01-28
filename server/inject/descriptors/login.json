@@ -45,7 +45,7 @@
             "type": "action",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 1
+            "selectIndex": 3
           }
         }
       }
