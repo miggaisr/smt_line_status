@@ -49,7 +49,7 @@
     },
     "people_list": {
       "type": "array",
-      "selectorAll": ".objbox",
+      "selectorAll": ".objbox > tr",
       "items": {
         "type": "object",
         "properties": {
