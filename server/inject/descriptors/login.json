@@ -34,6 +34,14 @@
       "type": "string",
       "selector": "html",
       "control": "property.innerText"
+    },
+    "my_ais": {
+      "type": "array",
+      "selectorAll": "tr",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": [
