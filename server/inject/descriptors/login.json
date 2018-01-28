@@ -43,7 +43,7 @@
         "properties": {
           "inner_inner_list": {
             "type": "array",
-            "selectorAll": "[align='left']",
+            "selectorAll": "td",
             "items": {
               "type": "object",
               "properties": {}
