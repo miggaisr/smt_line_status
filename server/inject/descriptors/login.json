@@ -37,7 +37,7 @@
     },
     "people_list": {
       "type": "array",
-      "selectorAll": "tr > td",
+      "selectorAll": "tr",
       "items": {
         "type": "object",
         "properties": {
