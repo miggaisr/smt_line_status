@@ -37,7 +37,7 @@
     },
     "my_ais": {
       "type": "array",
-      "selectorAll": "table < tr",
+      "selectorAll": "table > tr",
       "items": {
         "type": "object",
         "properties": {
