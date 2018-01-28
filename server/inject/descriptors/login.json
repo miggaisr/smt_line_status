@@ -34,28 +34,6 @@
       "type": "string",
       "selector": "html",
       "control": "property.innerText"
-    },
-    "all_ais": {
-      "type": "array",
-      "selectorAll": "tbody>tr",
-      "items": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "selector": "td",
-            "control": "property.innerText"
-          },
-          "my_last_ais": {
-            "type": "array",
-            "selectorAll": "#layer1",
-            "items": {
-              "type": "object",
-              "properties": {}
-            }
-          }
-        }
-      }
     }
   },
   "connect": [
