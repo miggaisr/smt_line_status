@@ -40,7 +40,16 @@
       "selectorAll": "tr",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "inner_list": {
+            "type": "array",
+            "selectorAll": "tr",
+            "items": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        }
       }
     }
   },
