@@ -15,16 +15,6 @@
       "selector": "[name=\"log_in\"]",
       "control": "action.button"
     },
-    "flex_user_code": {
-      "type": "string",
-      "control": "text",
-      "selector": "[name=\"flex_user_code\"]"
-    },
-    "psswd": {
-      "type": "string",
-      "selector": "[name=\"psswd\"]",
-      "control": "text"
-    },
     "isLogin": {
       "type": "identifier",
       "control": "exists",
@@ -34,6 +24,16 @@
       "type": "string",
       "selector": "html",
       "control": "property.innerText"
+    },
+    "username": {
+      "type": "string",
+      "control": "text",
+      "selector": "[name=\"flex_user_code\"]"
+    },
+    "password": {
+      "type": "string",
+      "selector": "[name=\"psswd\"]",
+      "control": "text"
     }
   },
   "connect": [
