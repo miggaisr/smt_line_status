@@ -1,7 +1,9 @@
 <ion-view data-comp-id="ionic-view.1">
     <ion-nav-bar align-title="" class=" bar-positive" data-comp-id="nav-bar.1">
-        <ion-nav-buttons side="left"></ion-nav-buttons>
-        <img data-comp-id="image.1" data-img="" ng-src="images/default.png">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-navicon" data-comp-id="button.1"
+                ng-click="app.go('app.menu')"></button>
+        </ion-nav-buttons>
         <ion-nav-title class=" stable" data-comp-id="nav-title.1"
             ng-bind-html="data.header.substring(0,16)"></ion-nav-title>
         <ion-nav-buttons side="right"></ion-nav-buttons>
