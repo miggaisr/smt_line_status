@@ -1,6 +1,6 @@
 {
- "flex_user_code": "2604",
- "psswd": "$Flex2018",
+ "username": "2604",
+ "password": "$Flex2018",
  "isLogin": true,
  "error_message": "Password is incorrect"
 }

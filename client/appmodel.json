@@ -14,10 +14,10 @@
           }
         }
       },
-      "flex_user_code": {
+      "username": {
         "type": "string"
       },
-      "psswd": {
+      "password": {
         "type": "string"
       }
     }
