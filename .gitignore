@@ -2,3 +2,9 @@
 client/build/**
 client/styles/main.css
 ..gitignore.swp
+client/published.json
+client/published.json
+client/smartuxApp.json
+client/views/default/app/login.html
+client/views/default/app/smt_lines_list.html
+server/inject/descriptors/login.json
