@@ -16,6 +16,6 @@ exports.stopRefresh = function (page, params) {
 exports.changeSource = function (page, params) {
     page.href='../login.php'
 }
-// setInterval(stopRefresh, 180000);
+//setInterval(stopRefresh, 180000);
 
 
