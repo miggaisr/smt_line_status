@@ -5,7 +5,6 @@ function app($scope, app) {
             cordova.plugins.Keyboard.hideKeyboardAccessoryBar(false);
         }
 
-        
         if (window.screen && window.screen.orientation) {
             screen.orientation.lock('portrait');
         }
